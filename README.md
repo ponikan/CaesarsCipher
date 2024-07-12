@@ -1,1 +1,6 @@
-Popov Nikolay project
+Popov Nikolay project CaesarsCipher
+Программа шифрует текст как с латинскими символами (WIN-1251) так и с русскими (с кодировкой UTF-8)
+Запускается с помощью передачи параметров в массив args[] ( Например: decode TextForDecription.txt TextForSaveDecription.txt 81)
+encode - режим работы программы шифрование; TextForEncription.txt-адрес исходного текста для шифрования; TextForSaveEncription - адрес файла с зашифрованным текстом; 81 -ключ
+decode - режим работы программы дешифрование; TextForDecription.txtадрес исходного текста для дешифрования  TextForSaveDecription.txt -адрес файла с расшифрованым текстом;
+Если не указаны адреса файлов, программа будет шифровать и расшифровывать текст по умолчанию. Текстовые файлы хранятся в директории text
